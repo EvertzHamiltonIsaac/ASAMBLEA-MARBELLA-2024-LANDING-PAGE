@@ -20,6 +20,10 @@ body {
     color: var(--c-body);
 }
 
+.nameColors{
+    color: var(--c-brand);
+}
+
 h1, h2, h3,h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-weight: 600;
@@ -246,12 +250,12 @@ img {
 }
 
 /* CONTACT */
-#contact {
+#contacto {
     position: relative;
     z-index: 2;
 }
 
-#contact::after {
+#contacto::after {
     content: "";
     width: 100%;
     height: 70%;
@@ -264,11 +268,11 @@ img {
     z-index: -1;
 }
 
-#contact .form-control {
+#contacto .form-control {
     border-radius: 0;
 }
 
-#contact .form-control:focus {
+#contacto .form-control:focus {
     box-shadow: none;
     border-color: var(--c-brand);
 }
